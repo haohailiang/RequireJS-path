@@ -7,3 +7,5 @@ define(['./log'], function(log) {
         hello: hello
     };
 });
+
+// www/js/lib/log.js
