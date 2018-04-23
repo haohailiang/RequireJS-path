@@ -34,3 +34,12 @@
 ![alt](../imgages/817398-444cbfb714073caf.png 我喜欢的狗狗)
 综上所述，RequireJS中路径解析过程如上图所示。在级联处理中会首先进行./替换操作；然后再针对  
 不以.js结尾的进行paths替换和baseUrl拼接；最后拼接上“主目录”。  
+# 影响hello模块查找log.js主要在于几点：
+* ./替换
+* paths替换
+* baseUrl
+* 主目录
+# 最佳实践
+`baseUrl指向库文件lib`  
+`path指向应用文件app`  
+`lib/path同级目录,不要深层次嵌套`
