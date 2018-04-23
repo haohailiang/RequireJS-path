@@ -12,6 +12,6 @@ define(['./log'], function(log) {
 // app.js js/lib/hello.js
 // app.js调用的前缀: js/lib/
 // js/lib/log.js
-// 没有baseurl
-// 主目录 www+ js/lib/log.js
+// 没有baseurl 默认baseurl js
+// 主目录 www/ + js/ + js/lib/log.js
 // www/js/js/lib/log.js
