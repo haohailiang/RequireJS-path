@@ -31,8 +31,7 @@
 [例子16](./demo16)  
 # 路径解析逻辑
 结论3.1：RequireJS中路径的处理流程如下图所示  
-![小狗狗](https://github.com/haohailiang/RequireJS-path/blob/master/images/817398-444cbfb714073caf.png 我喜欢的狗狗)
-![小狗狗](https://avatars2.githubusercontent.com/u/26648209?v=4&s=400&u=4108ba0a850f9f390a449b40629651a8e31d05cd '我喜欢的狗狗')
+![小狗狗](https://github.com/haohailiang/RequireJS-path/blob/master/images/817398-444cbfb714073caf.png?raw=true 我喜欢的狗狗)
 综上所述，RequireJS中路径解析过程如上图所示。在级联处理中会首先进行./替换操作；然后再针对不以.js结尾的进行paths替换和baseUrl拼接；最后拼接上“主目录”。  
 # 影响hello模块查找log.js主要在于几点：
 * ./替换
