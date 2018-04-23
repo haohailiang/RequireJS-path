@@ -25,15 +25,14 @@
 [例子11](./demo11)  
 [例子12](./demo12)  
 [例子13](./demo13)  
-`./log.js替换成log.js将不再进行替换`
+`./log.js替换成log.js将不再进行替换`  
 [例子14](./demo14)  
 [例子15](./demo15)  
 [例子16](./demo16)  
 # 路径解析逻辑
-结论3.1：RequireJS中路径的处理流程如下图所示
-![alt](../imgages/817398-444cbfb714073caf.png 我喜欢的狗狗)
-综上所述，RequireJS中路径解析过程如上图所示。在级联处理中会首先进行./替换操作；然后再针对  
-不以.js结尾的进行paths替换和baseUrl拼接；最后拼接上“主目录”。  
+结论3.1：RequireJS中路径的处理流程如下图所示  
+![小狗狗](https://github.com/haohailiang/RequireJS-path/blob/master/images/817398-444cbfb714073caf.png 我喜欢的狗狗)
+综上所述，RequireJS中路径解析过程如上图所示。在级联处理中会首先进行./替换操作；然后再针对不以.js结尾的进行paths替换和baseUrl拼接；最后拼接上“主目录”。  
 # 影响hello模块查找log.js主要在于几点：
 * ./替换
 * paths替换
